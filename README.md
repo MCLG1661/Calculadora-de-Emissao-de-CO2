@@ -197,10 +197,10 @@ const transportInfo = {
 
 O projeto é totalmente responsivo e se adapta aos seguintes breakpoints :
 ```
-Dispositivo	  Largura	     Comportamento
-Desktop	     > 768px	     Layout completo em grid
-Tablet	   481px - 768px	 Grid adaptado
-Mobile	     < 480px	     Layout em coluna única
+Dispositivo	   Largura	     Comportamento
+Desktop	       > 768px	     Layout completo em grid
+Tablet	     481px - 768px	 Grid adaptado
+Mobile	       < 480px	     Layout em coluna única
 ```
 
 ---
