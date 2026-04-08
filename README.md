@@ -87,3 +87,57 @@ ecotrip/
 1. **Clone o repositório**
 ```bash
 git clone https://github.com/seu-usuario/ecotrip.git
+```
+---
+
+## Acesse a pasta do projeto
+```bash
+cd ecotrip
+```
+---
+
+## Abra com VS Code
+´``bash
+code .
+```
+
+---
+
+## Execute com Live Server (recomendado) :
+
+- Instale a extensão "Live Server" no VS Code
+
+- Clique com botão direito no index.html
+
+- Selecione "Open with Live Server"
+
+## Abra diretamente
+
+Dê dois cliques no arquivo index.html
+
+## 🎮 Como Usar :
+
+1. Informe sua rota
+- Digite a cidade de origem
+- Digite a cidade de destino
+- Informe a distância em quilômetros
+
+2. Clique em "Calcular Impacto"
+
+3.Analise os resultados
+
+- Visualize as emissões em gráfico
+- Veja o ranking dos transportes
+- Consulte os créditos de carbono necessários
+- Leia a recomendação personalizada
+
+4. Explore os transportes
+
+## 📸 Demonstração
+Tela Principal
+https://via.placeholder.com/800x400?text=EcoTrip+-+Tela+Principal
+
+Resultados
+https://via.placeholder.com/800x400?text=EcoTrip+-+Resultados
+
+
