@@ -117,12 +117,6 @@ Dê dois cliques no arquivo index.html
 
 ---
 
-## Ou abra diretamente
-
-Dê dois cliques no arquivo index.html
-
----
-
 ## 🎮 Como Usar
 
 1. **Informe sua rota**
