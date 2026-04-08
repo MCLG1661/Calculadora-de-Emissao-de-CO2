@@ -144,5 +144,111 @@ Dê dois cliques no arquivo index.html
 
 - Clique nos cards para selecionar um transporte específico
 
+--- 
 
+## 📸 Demonstração
+Tela Principal
+https://via.placeholder.com/800x400?text=EcoTrip+-+Tela+Principal
 
+Resultados
+https://via.placeholder.com/800x400?text=EcoTrip+-+Resultados
+
+---
+
+## 🎨 Personalização
+
+1. **Ajustando Fatores de Emissão**
+
+Edite o arquivo js/config.js:
+
+javascript
+const CONFIG = {
+    emissionFactors: {
+        bike: 0,        // kg CO₂/km
+        car: 0.120,     // Altere conforme necessidade
+        bus: 0.050,
+        plane: 0.255
+    },
+    carbonCreditPrice: 85.00  // Preço por kg de CO₂ (R$)
+};
+
+---
+
+2. **Adicionando Novos Transportes**
+
+Adicione no config.js:
+
+javascript
+emissionFactors: {
+    // ... existentes
+    train: 0.030  // Trem
+}
+Adicione no ui.js:
+
+javascript
+const transportInfo = {
+    // ... existentes
+    train: { name: 'Trem', icon: 'fa-train', color: '#9C27B0', factor: 0.030 }
+}
+
+---
+
+## 📱 Responsividade
+
+O projeto é totalmente responsivo e se adapta aos seguintes breakpoints :
+```
+Dispositivo	Largura	Comportamento
+Desktop	> 768px	Layout completo em grid
+Tablet	481px - 768px	Grid adaptado
+Mobile	< 480px	Layout em coluna única
+```
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas ! Siga os passos :
+
+- Faça um Fork do projeto
+- Crie uma Branch para sua feature (git checkout -b feature/AmazingFeature)
+- Commit suas mudanças (git commit -m 'Add some AmazingFeature')
+- Push para a Branch (git push origin feature/AmazingFeature)
+- Abra um Pull Request
+
+---
+
+## 📊 Roadmap Futuro
+
+- Adicionar trem e metrô como opções de transporte
+- Implementar cálculo de emissões com base em consumo real
+- Adicionar modo escuro
+- Permitir salvamento de rotas favoritas
+- Integrar com API de geolocalização para cálculo automático
+- Adicionar compartilhamento de resultados em redes sociais
+
+## 💡 Curiosidade
+Uma viagem de São Paulo ao Rio de Janeiro (430 km) :
+
+- 🚲 Bicicleta: 0 kg CO₂ (emissão zero!)
+- 🚌 Ônibus: 21,5 kg CO₂
+- 🚗 Carro: 51,6 kg CO₂
+- ✈️ Avião: 109,7 kg CO₂
+
+Compensação necessária para o voo: Plantar aproximadamente 5 árvores! 🌳
+
+---
+
+## 🌟 Agradecimentos
+
+- Font Awesome - Ícones incríveis
+- Chart.js - Biblioteca de gráficos
+- Google Fonts - Fonte Inter
+
+---
+
+## 👨‍💻 Autor
+
+Marcus Guedes
+
+- GitHub: https://github.com/MCLG1661
+- LinkedIn: https://www.linkedin.com/in/marcusguedes
