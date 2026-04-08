@@ -1,1 +1,1 @@
-# Calculadora de Emissão de CO2
+# 🌿 EcoTrip - Calculadora de Impacto Ambiental para Viagens
