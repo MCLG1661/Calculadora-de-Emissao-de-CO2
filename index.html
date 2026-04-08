@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>EcoTrip - Calculadora de Impacto Ambiental</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <h1>Eco<span>Trip</span></h1>
+            </div>
+            <p class="tagline">Calcule o impacto ambiental da sua viagem</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Route Section -->
+            <section class="route-section">
+                <h2><i class="fas fa-route"></i> Sua Rota</h2>
+                <div class="route-inputs">
+                    <div class="input-group">
+                        <label><i class="fas fa-map-marker-alt"></i> Origem</label>
+                        <input type="text" id="origin" list="popular-origins" placeholder="Ex: São Paulo, SP" value="São Paulo">
+                    </div>
+                    <div class="input-group">
+                        <label><i class="fas fa-arrow-right"></i> Destino</label>
+                        <input type="text" id="destination" list="popular-destinations" placeholder="Ex: Rio de Janeiro, RJ" value="Rio de Janeiro">
+                    </div>
+                    <div class="input-group">
+                        <label><i class="fas fa-road"></i> Distância (km)</label>
+                        <input type="number" id="distance" placeholder="Distância em quilômetros" step="any" value="430">
+                    </div>
+                    <button id="calculateBtn" class="btn-primary">
+                        <i class="fas fa-calculator"></i> Calcular Impacto
+                    </button>
+                </div>
+                <!-- Datalists para sugestões -->
+                <datalist id="popular-origins"></datalist>
+                <datalist id="popular-destinations"></datalist>
+            </section>
+
+            <!-- Transport Cards -->
+            <section class="transport-section">
+                <h2><i class="fas fa-bus"></i> Meios de Transporte</h2>
+                <div class="transport-grid" id="transportGrid">
+                    <!-- Cards serão gerados via JavaScript -->
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section" id="resultsSection" style="display: none;">
+                <h2><i class="fas fa-chart-line"></i> Resultados</h2>
+                
+                <!-- Emissions Summary -->
+                <div class="emissions-summary">
+                    <h3>Emissões de CO₂ (kg)</h3>
+                    <div class="chart-container">
+                        <canvas id="emissionsChart" width="400" height="300"></canvas>
+                    </div>
+                    <div class="emissions-list" id="emissionsList"></div>
+                </div>
+
+                <!-- Comparison -->
+                <div class="comparison-section">
+                    <h3><i class="fas fa-chart-simple"></i> Comparativo por Trecho (kg CO₂)</h3>
+                    <div class="comparison-cards" id="comparisonCards"></div>
+                </div>
+
+                <!-- Carbon Credits -->
+                <div class="carbon-credits" id="carbonCredits">
+                    <!-- Dinamicamente preenchido -->
+                </div>
+
+                <!-- Recommendation -->
+                <div class="recommendation" id="recommendation">
+                    <!-- Dinamicamente preenchido -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 EcoTrip - Viaje consciente, preserve o futuro</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="config.js"></script>
+    <script src="calculator.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
