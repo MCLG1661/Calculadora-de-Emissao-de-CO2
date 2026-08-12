@@ -9,7 +9,7 @@
 ![GitHub Copilot](https://img.shields.io/badge/GitHub-Copilot-000000?logo=githubcopilot&logoColor=white)
 ![Sustainability](https://img.shields.io/badge/Focus-Sustainability-2E8B57)
 ![DIO](https://img.shields.io/badge/DIO-CI%26T%20Bootcamp-5A0FC8)
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen) 
 
 O **EcoTrip** é uma aplicação web interativa desenvolvida para comparar as
 emissões estimadas de CO₂ associadas a diferentes meios de transporte em uma viagem.
