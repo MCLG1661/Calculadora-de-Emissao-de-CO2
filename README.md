@@ -48,7 +48,7 @@ A aplicação permite:
 
 ## 🌐 Live Demo
 
-![ECO TRIP](https://mclg1661.github.io/Calculadora-de-Emissao-de-CO2/)
+![Explorar_EcoTrip](https://mclg1661.github.io/Calculadora-de-Emissao-de-CO2/)
 
 ---
 
