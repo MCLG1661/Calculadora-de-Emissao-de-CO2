@@ -62,21 +62,25 @@ A aplicação permite:
 
 ## ✨ Funcionalidades
 
-| Funcionalidade | Descrição |
-|---|---|
-| 🗺️ **Cálculo por distância** | Calcula emissões a partir da distância informada |
-| 🚲 **Comparação de transportes** | Bicicleta, ônibus, carro e avião |
-| 📊 **Visualização gráfica** | Compara os resultados visualmente |
-| 🏆 **Ranking sustentável** | Ordena as alternativas por emissão |
-| 🌳 **Compensação** | Estima a compensação associada às emissões |
-| 💡 **Recomendação** | Apresenta uma alternativa com menor impacto |
-| 📱 **Responsividade** | Interface adaptável a diferentes telas |
+🗺️ **Cálculo por distância** - Calcula emissões a partir da distância informada
+
+🚲 **Comparação de transportes** - Bicicleta, ônibus, carro e avião 
+
+📊 **Visualização gráfica** - Compara os resultados visualmente 
+
+🏆 **Ranking sustentável** - Ordena as alternativas por emissão
+
+🌳 **Compensação** - Estima a compensação associada às emissões
+
+💡 **Recomendação** - Apresenta uma alternativa com menor impacto
+
+📱 **Responsividade** - Interface adaptável a diferentes telas
 
 ---
 
 ## 🧮 Como Funciona
 
-O fluxo principal da aplicação é:
+O fluxo principal da aplicação é :
 
 ```text
 Usuário
@@ -108,12 +112,13 @@ Cada modalidade possui um fator configurável utilizado pela aplicação.
 
 ## 📊 Fatores Utilizados no Projeto
 
-| Transporte | Fator utilizado |
-|---|---:|
-| 🚲 Bicicleta | 0 kg CO₂/km |
-| 🚌 Ônibus | 0,050 kg CO₂/km |
-| 🚗 Carro | 0,120 kg CO₂/km |
-| ✈️ Avião | 0,255 kg CO₂/km |
+🚲 Bicicleta - 0 kg CO₂/km
+
+🚌 Ônibus - 0,050 kg CO₂/km
+
+🚗 Carro - 0,120 kg CO₂/km
+
+✈️ Avião - 0,255 kg CO₂/km
 
 > ⚠️ **Nota metodológica:** os valores utilizados são parâmetros simplificados
 > para fins educacionais e comparativos. Emissões reais podem variar conforme
@@ -128,19 +133,19 @@ Os fatores podem ser alterados em `config.js`.
 
 O projeto separa diferentes responsabilidades em arquivos específicos:
 
-### `config.js`
+`config.js`
 
 Centraliza parâmetros e fatores utilizados pelos cálculos.
 
-### `calculator.js`
+`calculator.js`
 
 Contém a lógica relacionada aos cálculos de impacto.
 
-### `ui.js`
+`ui.js`
 
 Responsável pela atualização e interação com a interface.
 
-### `app.js`
+`app.js`
 
 Inicializa e coordena o funcionamento da aplicação.
 
@@ -150,16 +155,21 @@ Essa separação facilita manutenção e evolução do projeto.
 
 ## 🛠️ Tecnologias
 
-| Tecnologia | Aplicação |
-|---|---|
-| **HTML5** | Estrutura da aplicação |
-| **CSS3** | Interface e responsividade |
-| **JavaScript** | Lógica e interatividade |
-| **Chart.js** | Visualização dos resultados |
-| **Font Awesome** | Iconografia |
-| **Google Fonts** | Tipografia |
-| **GitHub Copilot** | Apoio ao desenvolvimento |
-| **Git/GitHub** | Versionamento e documentação |
+**HTML5** - Estrutura da aplicação
+
+*CSS3** - Interface e responsividade 
+
+**JavaScript** - Lógica e interatividade
+
+**Chart.js** - Visualização dos resultados
+
+**Font Awesome** - Iconografia 
+
+**Google Fonts** - Tipografia
+
+**GitHub Copilot** - Apoio ao desenvolvimento
+
+ **Git/GitHub** - Versionamento e documentação
 
 ---
 
@@ -183,19 +193,19 @@ EcoTrip/
 
 ## ▶️ Como Executar
 
-### 1. Clone o repositório
+1. Clone o repositório
 
 ```bash
 git clone https://github.com/MCLG1661/Calculadora-de-Emissao-de-CO2.git
 ```
 
-### 2. Entre no diretório
+2. Entre no diretório
 
 ```bash
 cd Calculadora-de-Emissao-de-CO2
 ```
 
-### 3. Execute
+3. Execute
 
 Abra:
 
@@ -224,7 +234,7 @@ Para desenvolvimento, também pode ser utilizado um servidor local como o
 ## 🧪 Exemplo
 
 Para uma distância hipotética de **430 km**, utilizando os fatores configurados
-no projeto:
+no projeto :
 
 ```text
 🚲 Bicicleta     0,0 kg CO₂
@@ -301,7 +311,7 @@ ambientais para utilizar fatores de emissão documentados e atualizáveis.
 
 ## 🤝 Como Contribuir
 
-Contribuições são bem-vindas, principalmente relacionadas a:
+Contribuições são bem-vindas, principalmente relacionadas a :
 
 - Novos meios de transporte
 - Metodologias de cálculo
@@ -326,8 +336,6 @@ integrante do Bootcamp **CI&T**, na DIO.
 
 O projeto teve como objetivo aplicar desenvolvimento web e ferramentas de IA
 assistiva na construção de uma solução interativa.
-
-
 
 ---
 
