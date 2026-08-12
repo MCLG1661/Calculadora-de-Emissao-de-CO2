@@ -48,7 +48,7 @@ A aplicação permite:
 
 ## 🌐 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Explorar_EcoTrip-2ea44f)](URL-DO-GITHUB-PAGES)
+![Explorar Eco Trip](https://mclg1661.github.io/Calculadora-de-Emissao-de-CO2/)
 
 ---
 
