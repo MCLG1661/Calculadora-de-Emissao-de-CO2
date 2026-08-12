@@ -1,4 +1,6 @@
-## 🌿 EcoTrip - Calculadora de Impacto Ambiental para Viagens
+## 🌿 EcoTrip 
+
+*Calculadora de Impacto Ambiental para Viagens*
 
 ![EcoTrip Banner](https://img.shields.io/badge/EcoTrip-Calculadora%20Ambiental-brightgreen)
 
