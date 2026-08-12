@@ -42,21 +42,13 @@ A aplicação permite:
 
 ## 🖥️ Preview
 
-<!-- Substituir pela screenshot real da aplicação -->
-
-<p align="center">
-  <img src="URL-DA-SCREENSHOT"
-       alt="EcoTrip - Calculadora de Impacto Ambiental"
-       width="850">
-</p>
+<img width="800" height="400" alt="Captura de tela 2026-08-12 200737" src="https://github.com/user-attachments/assets/29655b09-da27-46b6-a0ec-0b902c20a11f" />
 
 ---
 
 ## 🌐 Live Demo
 
-<!-- Ativar GitHub Pages e inserir o endereço -->
-
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Explorar_EcoTrip-2ea44f)](URL-DO-GITHUB-PAGES)
+(https://mclg1661.github.io/Calculadora-de-Emissao-de-CO2/)
 
 ---
 
